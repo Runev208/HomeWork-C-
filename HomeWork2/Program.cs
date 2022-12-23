@@ -64,7 +64,7 @@ else
 // Задача 3.
 // Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, 
 // является ли этот день выходным.
-
+/*
 bool hoilday(int numberofaday)
 {
 if (numberofaday > 7 || numberofaday <= 5 || numberofaday < 1) return false;
@@ -83,3 +83,4 @@ else
     if (weekend){Console.WriteLine("This is holiday!" );}
     else{Console.WriteLine("This is not holiday!");}
 }
+*/
