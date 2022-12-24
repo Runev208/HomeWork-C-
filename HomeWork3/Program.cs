@@ -62,7 +62,7 @@ else
 // Напишите программу, которая принимает на вход координаты двух точек 
 // и находит расстояние между ними в 3D пространстве.
 
-
+/*
 Console.WriteLine("Введите x координату первой точки");
 double x1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите y координату первой точки");
@@ -85,7 +85,7 @@ string stringDistance = String.Format("{0:F2}", distance);
 
 Console.WriteLine($"Дистанция между точками: {stringDistance}");
 
-
+*/
 
 // Задача 3. 
 // Напишите программу, которая принимает на вход число (N) 
@@ -93,5 +93,29 @@ Console.WriteLine($"Дистанция между точками: {stringDistanc
 
 /*
 
+long getCube(long num)
+{
+    return num * num * num;
+}
 
+Console.WriteLine("Введите число N");
+long n = Convert.ToInt64(Console.ReadLine());
+
+/*
+* По уловию мы должны показать кубы от 1 до N, то есть 
+* исключая отрицательные значения и 0.
+*/
+/*
+if (n < 1)
+{
+    Console.WriteLine("Недопустимое значение");
+}
+else
+{
+    for (long index = 1; index <= n; index++)
+    {
+        long cube = getCube(index);
+        Console.WriteLine(cube);
+    }
+}
 */
