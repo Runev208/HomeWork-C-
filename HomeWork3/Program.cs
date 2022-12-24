@@ -62,10 +62,30 @@ else
 // Напишите программу, которая принимает на вход координаты двух точек 
 // и находит расстояние между ними в 3D пространстве.
 
-/*
+
+Console.WriteLine("Введите x координату первой точки");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите y координату первой точки");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите z координату первой точки");
+double z1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Введите x координату второй точки");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите y координату второй точки");
+double y2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите z координату второй точки");
+double z2 = Convert.ToDouble(Console.ReadLine());
+
+double xDiff = x2 - x1;
+double yDiff = y2 - y1;
+double zDiff = z2 - z1;
+double distance = Math.Sqrt((xDiff * xDiff) + (yDiff * yDiff) + (zDiff * zDiff));
+string stringDistance = String.Format("{0:F2}", distance);
+
+Console.WriteLine($"Дистанция между точками: {stringDistance}");
 
 
-*/
 
 // Задача 3. 
 // Напишите программу, которая принимает на вход число (N) 
