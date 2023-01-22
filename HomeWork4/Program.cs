@@ -82,6 +82,7 @@ void SumNumbers(int n, int len)
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
+/*
 int[] CreateArray(int length)
 {
     int[] array = new int[length];
@@ -105,3 +106,4 @@ Console.WriteLine("Please input a length of array");
 int m = Convert.ToInt32(Console.ReadLine());
 int[] array = CreateArray(m);
 ShowArray(array);
+*/
