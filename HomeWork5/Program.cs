@@ -79,7 +79,7 @@ int RandomNumbers(int ElementNumbers, int min, int max)
 // Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-
+/*
 Console.WriteLine("Введите длину массива  ");
 
 int size = Convert.ToInt32(Console.ReadLine());
@@ -127,3 +127,4 @@ void PrintArray(double[] number)
     Console.Write("]");
     Console.WriteLine();
 }
+*/
