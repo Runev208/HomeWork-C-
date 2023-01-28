@@ -12,6 +12,8 @@ double[,] array = new double[highthArray,lenghtArray];
 FillArrayRandomDouble();
 ShowArray();
 
+// Заполнение массива случайными вещественными числами
+
 void FillArrayRandomDouble(int min = -10, int max = 10)
 {
     Random random = new Random();
